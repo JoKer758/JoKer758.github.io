@@ -2,7 +2,9 @@
 layout : post
 title: AutoHotkey配置
 ---
+win10下配置
 
+    {
     F3::
     send #^{left}
     return
@@ -38,3 +40,6 @@ title: AutoHotkey配置
     F2::
     send dd
     return
+    }
+
+---
