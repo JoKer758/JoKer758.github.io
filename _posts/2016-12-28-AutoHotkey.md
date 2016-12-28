@@ -5,41 +5,41 @@ title: AutoHotkey配置
 win10下配置
 
     {
-    F3::
-    send #^{left}
-    return
+        F3::
+        send #^{left}
+        return
 
-    F4::
-    send #^{right}
-    return
+        F4::
+        send #^{right}
+        return
 
-    F7::
-    send !{tab}
-    return
+        F7::
+        send !{tab}
+        return
 
-    F8::
-    send #1Sleep, 500{F5} !{tab}
-    return
+        F8::
+        send #1Sleep, 500{F5} !{tab}
+        return
 
-    !h::
-    send {left}
-    return
+        !h::
+        send {left}
+        return
 
-    !l::
-    send {right}
-    return
+        !l::
+        send {right}
+        return
 
-    !j::
-    send {down}
-    return
+        !j::
+        send {down}
+        return
 
-    !k::
-    send {up}
-    return
+        !k::
+        send {up}
+        return
 
-    F2::
-    send dd
-    return
+        F2::
+        send dd
+        return
     }
 
 ---
