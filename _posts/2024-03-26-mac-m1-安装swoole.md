@@ -1,6 +1,8 @@
 ---
+layout : post
+title: mac m1 安装swoole
+---
 
-mac m1 安装swoole
 
     {
         pecl install swoole
