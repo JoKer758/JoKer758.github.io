@@ -1,15 +1,17 @@
 mac m1 安装swoole
 
+    {
+        pecl install swoole
+    }
 
-{
-pecl install swoole
-}
 
 报错swoole_ssl.h:27:10: fatal error: 'openssl/ssl.h' file not found
 
-{
-brew install openssl
-}
+    {
+        brew install openssl
+    }
+
+
 
 安装swoole时yes --with-openssl-dir=$(brew --prefix openssl
 
