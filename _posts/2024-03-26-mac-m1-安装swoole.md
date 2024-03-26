@@ -1,8 +1,8 @@
 ---
 layout : post
-title: mac m1 安装swoole
+title: 安装swoole
 ---
-
+安装命令
 
     {
         pecl install swoole
@@ -33,4 +33,7 @@ title: mac m1 安装swoole
     }
 
 brew services restart php
+---
+
+
 
